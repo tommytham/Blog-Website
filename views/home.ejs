@@ -1,0 +1,16 @@
+<%-include("partials/header");-%>
+
+<div class="container-fluid">
+  <h1>Home</h1>
+  <p><%=content%></p>
+
+  <% for(let i = 0; i<posts.length;i++){ %>
+    <div class="post-container">
+      <h2><%=posts[i].title%></h2>
+      <p><%=posts[i].content%></p>
+    </div>
+    
+  <%};%>
+
+  <%-include("partials/footer");-%>
+</div>

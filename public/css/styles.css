@@ -1,0 +1,15 @@
+h1 {
+  padding-bottom: 3%;
+}
+.container-fluid {
+  padding: 3% 7%;
+}
+
+.input-box {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.post-container {
+  padding: 1% 0;
+}
